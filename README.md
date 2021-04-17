@@ -1,2 +1,2 @@
 # sway-dotfiles
-![My Sway Build](https://ibb.co/LrRwzWS"><img src="https://i.ibb.co/ZSXs6Pd/Reddit.png)
+![My Sway Build](https://i.ibb.co/ZSXs6Pd/Reddit.png)
