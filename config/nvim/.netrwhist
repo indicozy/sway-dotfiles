@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/berkut/.config/swaylock'
+let g:netrw_dirhist_4='/home/berkut/.config/sway'
+let g:netrw_dirhist_3='/home/berkut/.themes/MGT-DarkX/gtk-3.0'
+let g:netrw_dirhist_2='/home/berkut/.themes/MGT-DarkX/gtk-3.0/gtk-3.0'
+let g:netrw_dirhist_1='/home/berkut/.themes/MGT-DarkX/gtk-3.0'
+let g:netrw_dirhist_0='/home/berkut/.themes/MGT-DarkX'
+let g:netrw_dirhist_9='/home/berkut/.themes/MGT-DarkX/gtk-3.0'
+let g:netrw_dirhist_8='/home/berkut/.themes/MGT-DarkX/gtk-3.0/gtk-3.0'
+let g:netrw_dirhist_7='/home/berkut/.config/waybar'
+let g:netrw_dirhist_6='/home/berkut/.themes'

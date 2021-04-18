@@ -1,0 +1,49 @@
+lolbanner() {
+	echo
+	figlet -f ~/.local/share/fonts/3d.flf $* | lolcat
+	echo
+}
+
+alias music='ncmpcpp'
+alias la='LC_COLLATE=C ls -lah --color=auto'
+alias ls='LC_COLLATE=C ls --color=auto'
+alias vi='nvim'
+alias minecraft='java -jar /home/candres/Downloads/TLauncher-2.75.jar'
+
+# System:
+alias xpropc='xprop | grep WM_CLASS' # display xprop class
+alias df='df -h'
+alias tree='tree -C'
+alias format_json='python -m json.tool'
+copy-text() {
+	xclip -selection clipboard -i < $1
+}
+copy-output() {
+	xclip -selection c
+}
+
+# create the same file to every folder in your current dir
+alias touch_mt='f(){ find . -type d -exec touch {}/"$1" \; }; f'
+
+# Files:
+alias aliasrc='$EDITOR $ZDOTDIR/aliases/aliasrc'
+alias bspwmrc='$EDITOR $XDG_CONFIG_HOME/bspwm/bspwmrc'
+alias keys='$EDITOR $XDG_CONFIG_HOME/sxhkd/sxhkdrc'
+alias xinitrc='$EDITOR $XINITRC'
+
+# Dotfiles:
+alias dotfiles='/usr/bin/git --git-dir=/home/candres/.dotfiles/ --work-tree=/home/candres'
+alias dots='dotfiles status'
+
+# zsh Files:
+alias zshrc='$EDITOR $ZDOTDIR/.zshrc'
+alias zprofile='$EDITOR $ZDOTDIR/.zprofile'
+alias zshenv='$EDITOR ~/.zshenv'
+
+# Navigation:
+alias d='dirs -v'
+for index ({1..9}) alias "$index"="cd +${index}"; unset index
+
+# tmux:
+alias mux='TERM=xterm-256color tmuxinator'
+alias tmux='TERM=xterm-256color tmux -f $XDG_CONFIG_HOME/tmux/tmux.conf'
