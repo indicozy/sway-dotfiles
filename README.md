@@ -1,3 +1,7 @@
+# The Project is Archived
+I am now focused on a [theme-changing script](https://github.com/indicozy/sway-dotfiles-script)
+
+
 # sway-dotfiles
 ![My Sway Build](https://i.ibb.co/ZSXs6Pd/Reddit.png)
 
